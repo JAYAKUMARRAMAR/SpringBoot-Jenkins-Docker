@@ -10,7 +10,7 @@ public class TestingController {
 
     @GetMapping
     public String health() {
-    return "Hello Everyone, Jenkins working";
+    return "Hello Everyone, Jenkins working and generate docker images";
     }
 
 }
